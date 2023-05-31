@@ -1,0 +1,24 @@
+// import { getData } from "./productData.mjs";
+// import { renderListWithTemplate } from "./utils.mjs";
+
+// export function productCardTemplate(product) {
+//     return `<li class="product-card">
+//     <a href="product_pages/index.html?product=">
+//       src=""
+//       alt="Image of "
+//     />
+//     <h3 class="card__brand">Samuel Jonathan</h3>
+//     <h2 class="card__name"></h2>
+//     <p class="product-card__price">$500</p></a>
+//   </li>`
+// }     
+
+// export default async function productList(selector, category) {
+//     // get the element we will insert the list into from the selector
+//     const el = document.querySelector(selector);
+//     // get the list of products
+//     const products = await getData(category);
+//     console.log(products);
+//     // render out the product list to the element
+//     renderListWithTemplate(productCardTemplate, el, products);
+//   }
